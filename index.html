@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vikash Pardhi | Civil Engineer/Architect</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .experience-highlight {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      max-width: 760px;
+      margin: 10px 0 55px;
+      padding: 30px;
+      border-radius: 28px;
+      background: rgba(255, 255, 255, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(24px);
+      box-shadow: 0 24px 70px rgba(120, 140, 180, 0.18);
+    }
+
+    .experience-highlight span {
+      font-size: clamp(4rem, 8vw, 7rem);
+      font-weight: 800;
+      line-height: 1;
+      color: var(--accent);
+      font-family: "Playfair Display", serif;
+    }
+
+    .experience-highlight h3 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: var(--text);
+    }
+
+    .experience-highlight p {
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .timeline-content p+p {
+      margin-top: 16px;
+    }
+
+    @media(max-width:768px) {
+      .experience-highlight {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">VIKASH PARDHI</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#project-1">Projects</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Expertise</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="reveal">
+      <div class="eyebrow">Civil Engineer & Architectural Designer</div>
+      <h1>VIKASH PARDHI</h1>
+      <p>
+        Architect / Civil Engineer crafting precise, elegant, and sustainable spaces where structural logic meets
+        refined architectural expression. Specializing in high-rise execution, modern 3D elevations, and Vaastu( वास्तु
+        )-compliant planning
+      </p>
+      <div class="hero-buttons">
+        <a href="#project-1" class="hero-btn primary-btn">
+          View Projects
+        </a>
+
+        <a href="https://instagram.com/yourusername" target="_blank" class="hero-btn">
+          Instagram
+        </a>
+
+        <a href="https://linkedin.com/in/yourusername" target="_blank" class="hero-btn">
+          LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-card reveal"><img src="/Vikash_protfolio/photo/p101.png" alt="vikash"></div>
+  </section>
+
+  <section id="projects">
+    <div class="reveal">
+      <h2 class="section-title">Selected Projects</h2>
+      <p class="section-intro">
+        A curated collection of architectural and engineering works focused on clarity, performance, urban impact, and
+        timeless spatial design.
+      </p>
+    </div>
+  </section>
+
+  <section class="project-page" id="project-1">
+    <div class="project-hero reveal">
+      <div class="project-card">
+        <div class="eyebrow">Project 01</div>
+        <h3>Residential Tower</h3>
+        <p>A premium high-rise residential concept focused on vertical living, structural efficiency, and panoramic
+          urban views.</p>
+      </div>
+      <div class="project-meta">
+        <div><span>Type</span><strong>Residential Architecture</strong></div>
+        <div><span>Scope</span><strong>Concept, Structure, Planning</strong></div>
+        <div><span>Location</span><strong>Nagpur, Maharashtra</strong></div>
+      </div>
+    </div>
+
+    <div class="gallery reveal">
+      <div class="gallery-item wide" data-label="Facade Concept"><img src="/Vikash_protfolio/proj1/101.jpeg" alt="">
+      </div>
+      <div class="gallery-item" data-label="Lobby Design"><img src="/Vikash_protfolio/proj1/102.jpeg" alt=""></div>
+      <div class="gallery-item tall" data-label="Tower Massing"><img src="/Vikash_protfolio/proj1/103.jpeg" alt="">
+      </div>
+      <div class="gallery-item" data-label="Floor Plan"><img src="/Vikash_protfolio/proj1/104.jpeg" alt=""></div>
+      <div class="gallery-item wide" data-label="Skyline View"><img src="/Vikash_protfolio/proj1/105.jpg" alt=""></div>
+    </div>
+
+    <div class="videos reveal">
+      <div class="video-shell"><video src="/Vikash_protfolio/proj1/106.mp4" controls></video></div>
+      <div class="video-shell"><video src="/Vikash_protfolio/proj1/107.mp4" controls></video></div>
+    </div>
+  </section>
+
+  <section class="project-page" id="project-2">
+    <div class="project-hero reveal">
+      <div class="project-card">
+        <div class="eyebrow">Project 02</div>
+        <h3>Residential House</h3>
+        <p>A contemporary residential design focused on comfort, functionality, and aesthetic appeal.</p>
+      </div>
+      <div class="project-meta">
+        <div><span>Type</span><strong>Residential Architecture</strong></div>
+        <div><span>Scope</span><strong>Design, Construction</strong></div>
+        <div><span>Location</span><strong>Sikandra , Waraseoni</strong></div>
+      </div>
+    </div>
+
+    <div class="gallery reveal">
+      <div class="gallery-item tall" data-label="Bridge Elevation"><img src="/Vikash_protfolio/proj2/201.jpg" alt="">
+      </div>
+      <div class="gallery-item wide" data-label="Pedestrian Deck"><img src="/Vikash_protfolio/proj2/202.jpg" alt="">
+      </div>
+      <div class="gallery-item" data-label="Support Detail"><img src="/Vikash_protfolio/proj2/203.jpg" alt=""></div>
+      <div class="gallery-item" data-label="Night View"><img src="/Vikash_protfolio/proj2/204.png" alt=""></div>
+      <div class="gallery-item wide" data-label="Urban Context"><img src="/Vikash_protfolio/proj2/205.jpg" alt=""></div>
+    </div>
+
+    <div class="videos reveal">
+      <div class="video-shell"><video src="/Vikash_protfolio/proj2/206.mp4" controls></video></div>
+      <div class="video-shell"><video src="/Vikash_protfolio/proj2/207.mp4" controls></video></div>
+    </div>
+  </section>
+
+  <section class="project-page" id="project-3">
+    <div class="project-hero reveal">
+      <div class="project-card">
+        <div class="eyebrow">Project 03</div>
+        <h3>Residential Complex</h3>
+        <p>A contemporary residential design focused on comfort, functionality, and aesthetic appeal.</p>
+      </div>
+      <div class="project-meta">
+        <div><span>Type</span><strong>Residential Architecture</strong></div>
+        <div><span>Scope</span><strong>Design, Construction</strong></div>
+        <div><span>Location</span><strong>Sikandra , Waraseoni</strong></div>
+      </div>
+    </div>
+
+    <div class="gallery reveal">
+      <div class="gallery-item wide" data-label="Main Atrium"><img src="/Vikash_protfolio/proj3/301.png" alt=""></div>
+      <div class="gallery-item" data-label="Gallery Space"><img src="/Vikash_protfolio/proj3/302.png" alt=""></div>
+      <div class="gallery-item" data-label="Entrance Plaza"><img src="/Vikash_protfolio/proj3/303.jpg" alt=""></div>
+      <div class="gallery-item tall" data-label="Section Study"><img src="/Vikash_protfolio/proj3/304.jpg" alt=""></div>
+      <div class="gallery-item wide" data-label="Interior Volume"><img src="/Vikash_protfolio/proj3/305.png" alt="">
+      </div>
+    </div>
+
+    <div class="videos reveal">
+      <div class="video-shell"><video src="/Vikash_protfolio/proj3/306.mp4" controls></video></div>
+      <div class="video-shell"><video src="/Vikash_protfolio/proj3/307.mp4" controls></video></div>
+    </div>
+  </section>
+
+  <section class="project-page" id="project-4">
+    <div class="project-hero reveal">
+      <div class="project-card">
+        <div class="eyebrow">Project 04</div>
+        <h3>Sustainable Housing Complex</h3>
+        <p>An environmentally responsive housing development with passive design, community spaces, and efficient
+          planning.</p>
+      </div>
+      <div class="project-meta">
+        <div><span>Type</span><strong>Residential Architecture</strong></div>
+        <div><span>Scope</span><strong>Passive Design, Planning</strong></div>
+        <div><span>Location</span><strong>Sikandra , Waraseoni</strong></div>
+      </div>
+    </div>
+
+    <div class="gallery reveal">
+      <div class="gallery-item wide" data-label="Master Plan"><img src="/Vikash_protfolio/proj4/401.png" alt=""></div>
+      <div class="gallery-item tall" data-label="Courtyard"><img src="/Vikash_protfolio/proj4/402.png" alt=""></div>
+      <div class="gallery-item" data-label="Housing Block"><img src="/Vikash_protfolio/proj4/403.jpg" alt=""></div>
+      <div class="gallery-item" data-label="Green Roof"><img src="/Vikash_protfolio/proj4/404.jpg" alt=""></div>
+      <div class="gallery-item wide" data-label="Community Space"><img src="/Vikash_protfolio/proj4/405.png" alt="">
+      </div>
+    </div>
+
+    <div class="videos reveal">
+      <div class="video-shell"><video src="/Vikash_protfolio/proj4/406.mp4" controls></video></div>
+      <div class="video-shell"><video src="/Vikash_protfolio/proj4/407.mp4" controls></video></div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-box reveal"><img src="/Vikash_protfolio/photo/p102.png" alt="Vikash Pardhi"></div>
+
+    <div class="reveal">
+      <div class="eyebrow">About</div>
+      <h2 class="section-title">Designing with structure, purpose, and precision.</h2>
+      <p>
+        I am Vikas Pardhi, a Civil Engineer and Architectural Designer from Waraseoni, Madhya Pradesh. With over 5 years
+        of combined experience in site execution and architectural designing, I specialize in delivering precise 2D/3D
+        layouts and managing high-rise residential projects. <br>
+
+        My professional journey includes supervising a 14-floor residential building in Nagpur, executing premium
+        apartments and mass housing projects, and working as an independent consultant for customized planning and
+        modern 3D elevations. <br>
+
+        I am proficient in industry-standard tools like AutoCAD, Revit Architecture, 3ds Max, Google SketchUp, and MS
+        Office, enabling me to handle everything from structural supervision and waterproofing to project estimation and
+        client consulting.<br>
+
+        Driven by a passion for design and execution, I aim to create structures that are not only functional but also
+        aesthetically appealing and Vaastu-compliant. My freelance portfolio showcases 7+ independent residential
+        projects, each tailored to client needs with innovative planning and modern elevation concepts.
+      </p>
+    </div>
+  </section>
+
+  <section id="experience" class="experience-section">
+
+    <div class="reveal">
+      <div class="eyebrow">Experience</div>
+      <h2 class="section-title">Professional Experience</h2>
+
+      <p class="section-intro">
+        Result-oriented Civil Engineer and Architectural Designer with
+        <strong>5+ years of combined experience</strong> in site execution,
+        architectural designing, planning, 2D/3D layouts, high-rise supervision,
+        waterproofing, estimation, and client-focused project delivery.
+      </p>
+    </div>
+
+    <div class="experience-highlight reveal">
+      <span>5+</span>
+      <div>
+        <h3>Years of Combined Experience</h3>
+        <p>
+          Project Execution, Site Engineering, Architectural Designing,
+          Freelance Planning, 3D Elevation, and Residential Project Delivery.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+          <span class="timeline-date">2023 — Present</span>
+
+          <h3>Independent Civil Engineer & Designer</h3>
+
+          <h4>Freelance / Independent Consultant</h4>
+
+          <p>
+            Successfully managing 7 to 8 residential projects, providing
+            end-to-end planning, custom 2D floor plans, modern 3D front
+            elevations, Vaastu-compliant layouts, and client-focused design
+            solutions tailored to individual project requirements.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+
+        <div class="timeline-content">
+          <span class="timeline-date">2022 — 2023</span>
+
+          <h3>Civil Site Engineer</h3>
+
+          <h4>Maxx Builder and Developer, Nagpur</h4>
+
+          <p>
+            Supervised site operations for a 14-floor residential building
+            consisting of 12 + 2 floors, with specialized involvement in
+            advanced waterproofing works, structural execution, and quality
+            control from foundation to finishing.
+          </p>
+
+          <p>
+            Executed a 4-story G+3 premium apartment project with 6 luxury
+            flats and managed a 5-story 2BHK mass housing project comprising
+            40 flats. Handled concrete work, brickwork, slab casting,
+            site coordination, and on-site construction management.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="skills">
+    <div class="reveal">
+      <h2 class="section-title">Expertise</h2>
+      <p class="section-intro">
+        A multidisciplinary skill set across design, engineering, documentation, coordination, and project delivery.
+      </p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill reveal"><span>01</span>
+        <h3>Structural Design</h3>
+        <p>Safe, efficient, and buildable structural systems for modern projects.</p>
+      </div>
+      <div class="skill reveal"><span>02</span>
+        <h3>CAD Drafting</h3>
+        <p>Accurate plans, sections, elevations, and construction documentation.</p>
+      </div>
+      <div class="skill reveal"><span>03</span>
+        <h3>BIM Modeling</h3>
+        <p>Coordinated digital models for design development and collaboration.</p>
+      </div>
+      <div class="skill reveal"><span>04</span>
+        <h3>Project Management</h3>
+        <p>Planning, coordination, scheduling, and execution-focused delivery.</p>
+      </div>
+      <div class="skill reveal"><span>05</span>
+        <h3>Sustainable Design</h3>
+        <p>Passive strategies, material awareness, and environmentally conscious planning.</p>
+      </div>
+      <div class="skill reveal"><span>06</span>
+        <h3>Site Planning</h3>
+        <p>Functional layouts responding to context, circulation, and regulations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-details reveal">
+      <div class="eyebrow">Contact</div>
+      <h3>Get in Touch</h3>
+      <p style="color: var(--muted); line-height: 1.8; margin-bottom: 32px;">
+        Available for architecture projects, civil engineering collaborations, internships, job opportunities, and
+        design consultations.
+      </p>
+
+      <div class="contact-details-group">
+        <span class="contact-details-label">📧 Email</span>
+        <div class="contact-details-value">
+          <a href="mailto:vikaspardhi8@gmail.com">vikaspardhi8@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="contact-details-group">
+        <span class="contact-details-label">📱 Phone</span>
+        <div class="contact-details-value">
+          <a href="tel:+917999452856">+91 7999452856</a>
+          <a href="tel:+919770274017">+91 9770274017</a>
+        </div>
+      </div>
+      <div class="contact-details-group">
+        <span class="contact-details-label">🌐 Social Media</span>
+        <div class="contact-details-value">
+          <a href="https://instagram.com/vikas.pardhi" target="_blank">Instagram</a>
+        </div>
+      </div>
+      <div class="contact-details-group">
+        <span class="contact-details-label">📍 Location</span>
+        <div class="contact-details-value">
+          Waraseoni, Balaghat, MP
+        </div>
+      </div>
+
+
+    </div>
+
+    <form class="reveal" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="6deb68a9-c3b8-440b-82b5-e56764fff602">
+
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Email Address" required>
+  <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
+  </section>
+
+  <footer>
+    © 2026 [Your Name]. Architecture / Civil Engineering Portfolio.
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="close-lightbox" title="Close (ESC)">&times;</button>
+    <button class="lightbox-nav-btn prev" title="Previous" id="prevBtn">❮</button>
+
+    <div class="lightbox-content">
+      <img class="lightbox-media" id="lightboxImage" alt="Gallery image" />
+      <video class="lightbox-media" id="lightboxVideo" controls style="display:none;"></video>
+      <span class="lightbox-label" id="lightboxLabel">Project Image</span>
+      <span class="lightbox-counter" id="lightboxCounter"></span>
+    </div>
+
+    <button class="lightbox-nav-btn next" title="Next" id="nextBtn">❯</button>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
