@@ -18,9 +18,9 @@ window.addEventListener("load", revealOnScroll);
 
 // Contact form handler
 document.querySelector("form").addEventListener("submit", function(e) {
-  e.preventDefault();
+  // e.preventDefault();
   alert("Thank you! Your message has been submitted.");
-  this.reset();
+  // this.reset();
 });
 
 // Lightbox gallery functionality
