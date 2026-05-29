@@ -388,7 +388,7 @@
         <span class="contact-details-label">📱 Phone</span>
         <div class="contact-details-value">
           <a href="tel:+917999452856">+91 7999452856</a>
-          <a href="tel:+919770274017">+91 9770274017</a>
+          
         </div>
       </div>
       <div class="contact-details-group">
@@ -407,9 +407,9 @@
 
     </div>
 
-    <form class="reveal" action="https://api.web3forms.com/submit" method="POST">
+    <form class="reveal" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
 
-  <input type="hidden" name="access_key" value="6deb68a9-c3b8-440b-82b5-e56764fff602">
+  <input type="hidden" name="access_key" value="daac82ab-440e-4c47-a2c6-d74337aef0c0">
 
   <input type="hidden" name="subject" value="New Portfolio Contact Message">
   <div class="reveal">
@@ -418,13 +418,21 @@
       Let's build something remarkable.
     </h2>
   </div>
-  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="text" name="name" id="contactName" placeholder="Your Name" required>
 
-  <input type="email" name="email" placeholder="Email Address" required>
+  <input type="email" name="email" id="contactEmail" placeholder="Email Address" required>
 
-  <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+  <textarea name="message" id="contactMessage" placeholder="Tell me about your project..." required></textarea>
 
-  <button type="submit">Send Message</button>
+  <!-- Form Status Message -->
+  <div id="formStatus" class="form-status"></div>
+
+  <!-- Button Group -->
+  <div class="form-buttons-group">
+    <button type="submit" name="submit" value="web3forms">Send Message on Mail </button>
+    <button type="button" id="emailBtn" class="btn-secondary">Send via Email</button>
+    <button type="button" id="whatsappBtn" class="btn-secondary">Send via WhatsApp <span class="contact-details-label"></span></button>
+  </div>
 
 </form>
   </section>
